@@ -28,3 +28,30 @@
 
 ## 5. 版权声明
 代码遵循MIT许可证，版权归[YAN Yichen/BUAA]所有。使用或修改代码时，请保留本声明。
+
+---
+
+# Patellar Shape Analysis Code (Paper Implementation)
+
+This code is the engineering implementation of the paper "3D patellar shape is associated with patellar dislocation: An automated coordinate algorithm and statistical shape modeling analysis," used to validate the 3D patellar shape analysis methods (curvature calculation, plane fitting, coordinate system establishment, etc.) proposed in the paper. For core algorithms and creative details, please refer to the paper; the code provides only a reproducible engineering framework.
+
+## 1. Dependencies
+- VTK library (≥8.2): For 3D model reading, processing, and visualization;
+- C++ compiler (supporting C++11): Such as GCC, Clang, or MSVC;
+- CMake (optional): For cross-platform compilation.
+
+## 2. Compilation and Usage
+1. Install the VTK library and configure environment variables (`VTK_DIR` pointing to the VTK installation path);
+2. Compile the project (e.g., using CMake to generate Makefile or directly importing into an IDE);
+3. Run the executable file, input the STL model path and parameters (parameter meanings refer to the paper's experimental settings).
+
+## 3. Core Creative Reference
+Key algorithms in the code (such as area-weighted face center calculation, anterior patellar plane fitting, coordinate system alignment) are derived from the methods in the paper. For detailed derivation and validation, please refer to:
+> [Author]. [Paper Title]. *[Journal/Conference Name]*, [Year], [Volume]([Issue]): [Page Number].
+
+## 4. Notes
+- Parameters in the code (such as angle threshold `angleThre`, area ratio threshold `AreaRatio1`) are the optimal settings from the paper's experiments; modifications may affect results;
+- The visualization module uses VTK's default configuration; adjust `vtkRenderer` parameters to modify the view or colors.
+
+## 5. Copyright Statement
+The code is licensed under the MIT License, and the copyright belongs to [YAN Yichen/BUAA]. When using or modifying the code, please retain this statement.
