@@ -1,7 +1,7 @@
 # AutomatedPatellarCoordinateSystem
 # 髌骨形态分析代码（论文配套实现）
 
-本代码是论文《[论文标题]》的工程实现，用于验证论文中的髌骨三维形态分析方法（曲率计算、平面拟合、坐标系建立等）。核心算法与创意细节请参考论文，代码仅提供可复现的工程框架。
+本代码是论文《3D patellar shape is associated with patellar dislocation: An automated coordinate algorithm and statistical shape modeling analysis》的工程实现，用于验证论文中的髌骨三维形态分析方法（曲率计算、平面拟合、坐标系建立等）。核心算法与创意细节请参考论文，代码仅提供可复现的工程框架。
 
 
 ## 1. 依赖环境
