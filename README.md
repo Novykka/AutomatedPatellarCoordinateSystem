@@ -31,7 +31,7 @@
 
 ---
 
-# Patellar Shape Analysis Code (Paper Implementation)
+# AutomatedPatellarCoordinateSystem (Paper Implementation)
 
 This code is the engineering implementation of the paper "3D patellar shape is associated with patellar dislocation: An automated coordinate algorithm and statistical shape modeling analysis," used to validate the 3D patellar shape analysis methods (curvature calculation, plane fitting, coordinate system establishment, etc.) proposed in the paper. For core algorithms and creative details, please refer to the paper; the code provides only a reproducible engineering framework.
 
